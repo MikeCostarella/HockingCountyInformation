@@ -3,8 +3,8 @@ import { LINKS, CATEGORIES, AUDITOR_VENDOR } from "./data/links.js";
 
 // Main menu links. Replace the placeholder URLs with your real ones.
 const MENU_LINKS = [
-  { label: "GitHub Repository", url: "https://github.com/MikeCostarella/MarionCountyInformation", icon: "📦" },
-  { label: "GitHub Actions", url: "https://github.com/MikeCostarella/MarionCountyInformation/actions", icon: "⚙️" },
+  { label: "GitHub Repository", url: "https://github.com/MikeCostarella/HockingCountyInformation", icon: "📦" },
+  { label: "GitHub Actions", url: "https://github.com/MikeCostarella/HockingCountyInformation/actions", icon: "⚙️" },
   { label: "My Website", url: "https://mikecostarella.github.io/MyWebSite/", icon: "🌐" },
 ];
 
@@ -94,9 +94,9 @@ export default function App() {
               </ul>
             )}
           </div>
-          <h1>Marion County Information</h1>
+          <h1>Hocking County Information</h1>
         </div>
-        <p>A curated directory of government, education, health, business, community, and news links across Marion County, Ohio.</p>
+        <p>A curated directory of government, education, health, business, community, and news links across Hocking County, Ohio.</p>
         <p style={{ margin: "0 0 16px", fontSize: "0.9rem", opacity: 0.9 }}>
           <strong>Auditor Data Vendor:</strong> {AUDITOR_VENDOR}
         </p>
